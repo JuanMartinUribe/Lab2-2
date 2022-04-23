@@ -80,3 +80,11 @@ o si se utiliza mongo atlas cloud
 ### Ejecucion
 #### las dos instancias del back deben correr el mismo dockerfile con su respectiva configuracion url_db_connection
 #### La instancia del front debe correr el dockerfile con nginx configurado con los pasos dados, y si se desea añadir mas nodos del back se deben colocar en el `upstream`
+
+### Arquitectura
+![image](https://user-images.githubusercontent.com/53051383/164916739-60acb847-00eb-4f79-a1ae-39c12adffc94.png)
+
+# Producto Final
+![image](https://user-images.githubusercontent.com/53051383/164916779-ea6f86b8-89f4-42f5-a8a9-d6350877b789.png)
+![image](https://user-images.githubusercontent.com/53051383/164916793-b73c98d7-5e0f-4ba1-a934-6aaa8ea76db4.png)
+
