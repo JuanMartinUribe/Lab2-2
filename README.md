@@ -77,3 +77,6 @@ o si se utiliza mongo atlas cloud
 
 `ENV URL_DB_CONNECTION = mongodb+srv://<user>:<password>@mongo.kuhec.mongodb.net/<database>?retryWrites=true&w=majority`
 
+### Ejecucion
+#### las dos instancias del back deben correr el mismo dockerfile con su respectiva configuracion url_db_connection
+#### La instancia del front debe correr el dockerfile con nginx configurado con los pasos dados, y si se desea añadir mas nodos del back se deben colocar en el `upstream`
