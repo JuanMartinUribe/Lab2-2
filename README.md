@@ -4,7 +4,7 @@ El codigo fuente de la aplicacion fue proporcionado por el curso de telematica p
 
 ## Setup
 ### Nginx
-Nginx funciona como un balanceador de cargas, por eso en el upstream debe conocer los nodos del back para repartir mediante Round Robin las peticiones.
+Nginx funciona como un balanceador de cargas, por eso en el upstream debe conocer los nodos del back para repartir mediante Round Robin las peticiones. Tambien requiere los certificados ssl para poder correr por el puerto 443.
 ```
 worker_processes 4;
 events { worker_connections 1024; }
